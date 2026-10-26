@@ -1,0 +1,1 @@
+{"version":2,"defects":[],"times":{"Tests\\QuizTest::testQuestionValidation":0.022,"Tests\\QuizTest::testShuffleOptionsKeepsCorrectAnswerValid":0.001,"Tests\\QuizTest::testScoreCalculation":0.002,"Tests\\QuizTest::testRepositoryLimitAndRandomization":0.004}}

@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "question": "¿Qué es el patrón de diseño 'API Gateway' en una arquitectura de microservicios?",
+        "options": [
+            "Una base de datos distribuida.",
+            "Un punto de entrada único que centraliza las peticiones de los clientes y las enruta al microservicio correspondiente.",
+            "Un servidor web alternativo a Nginx.",
+            "Un mecanismo de encriptación de contraseñas."
+        ],
+        "correct_answer": 1,
+        "explanation": "El API Gateway actúa como un reverse proxy que desacopla a los clientes de los microservicios internos, manejando autenticación, ruteo y agregación."
+    }
+]

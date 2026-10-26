@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "question": "¿Qué es PSR-4 en PHP?",
+        "options": [
+            "Un estándar para la carga automática de clases (Autoloading).",
+            "Un framework moderno basado en componentes.",
+            "Una extensión para mejorar el rendimiento de la base de datos.",
+            "Un protocolo de seguridad para sesiones."
+        ],
+        "correct_answer": 0,
+        "explanation": "PSR-4 es el estándar oficial de PHP-FIG para mapear namespaces a rutas de directorios físicos y cargar clases automáticamente."
+    },
+    {
+        "id": 2,
+        "question": "¿Cuál es la diferencia principal entre self:: y static:: en PHP?",
+        "options": [
+            "No hay ninguna diferencia.",
+            "self:: resuelve al ámbito de la clase donde se define el método, mientras que static:: realiza resolución en tiempo de ejecución (Late Static Binding).",
+            "static:: solo se usa para variables globales.",
+            "self:: es exclusivo de interfaces."
+        ],
+        "correct_answer": 1,
+        "explanation": "El 'Late Static Binding' (static::) permite referenciar a la clase que fue llamada inicialmente en tiempo de ejecución en lugar de la clase donde se definió el método."
+    },
+    {
+        "id": 3,
+        "question": "¿Cuál es la diferencia entre un arreglo indexado y un arreglo asociativo en PHP, y cómo accedes a un valor específico en cada uno?",
+        "options": [
+            "Arreglo Indexado: Es aquel donde las posiciones de los elementos se identifican mediante un índice numérico automático (comenzando desde el 0).  Ejemplo: $frutas = ['Manzana', 'Banana', 'Naranja'];",
+            "Arreglo Asociativo: Es aquel donde tú defines claves personalizadas (generalmente cadenas de texto) para asociarlas a cada valor utilizando la sintaxis 'clave' => 'valor'.  Ejemplo: $usuario = ['nombre' => 'Juan', 'edad' => 25];",
+            "Ambas opciones son correctas.",
+            "Ambas opciones son falsas."
+        ],
+        "correct_answer": 2,
+        "explanation": "Arreglo Indexado: Es aquel donde las posiciones de los elementos se identifican mediante un índice numérico automático (comenzando desde el 0).\r\nEjemplo: $frutas = ['Manzana', 'Banana', 'Naranja'];\r\nAcceso: Para obtener 'Banana', accedes con su posición numérica: $frutas[1].\r\n\r\nArreglo Asociativo: Es aquel donde tú defines claves personalizadas (generalmente cadenas de texto) para asociarlas a cada valor utilizando la sintaxis 'clave' => 'valor'.\r\nEjemplo: $usuario = ['nombre' => 'Juan', 'edad' => 25];\r\nAcceso: Para obtener el nombre, utilizas su clave en texto: $usuario['nombre']."
+    }
+]

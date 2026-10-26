@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  quiz-app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: php_quiz_app
+    volumes:
+      - .:/app
+    ports:
+      - "8080:80"
+    command: php -S 0.0.0.0:80 -t public

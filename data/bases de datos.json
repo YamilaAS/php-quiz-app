@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "question": "¿Cuál de las siguientes propiedades de las transacciones en una base de datos garantiza que, una vez que se confirma una transacción, los cambios persistan incluso en caso de un fallo del sistema?",
+        "options": [
+            "A) Atomicidad (Atomicity)",
+            "B) Consistencia (Consistency)",
+            "C) Aislamiento (Isolation)",
+            "D) Durabilidad (Durability)"
+        ],
+        "correct_answer": 3,
+        "explanation": "La Durabilidad es la 'D' del acrónimo ACID, que define las propiedades fundamentales de una transacción transaccional. Esta propiedad asegura que los cambios realizados por una transacción que ha finalizado con éxito (commit) se graben de forma permanente en un medio de almacenamiento no volátil (como el disco duro). De este modo, los datos no se perderán aunque el sistema sufra una caída o un apagón inmediatamente después.\r\n• Atomicidad (A): Garantiza que la transacción se ejecute por completo o no se ejecute en absoluto (todo o nada).\r\n• Consistencia (C): Asegura que una transacción lleve a la base de datos de un estado válido a otro estado válido, respetando todas las reglas e integridad.\r\n• Aislamiento (I): Permite que múltiples transacciones se ejecuten de forma concurrente sin que interfieran entre sí."
+    }
+]
